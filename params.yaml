@@ -1,0 +1,46 @@
+# Параметри моделі (за замовчуванням збігаються з кодом).
+# Можна змінювати та передавати у CLI через --params params.yaml
+
+s_D: 1.0
+s_P: 1.0
+s_R: 1.0
+
+tau_AoI: 1.0
+theta_resp: 1.0
+slack_R: 0.0
+
+r_star: 2
+
+lambda_D: 0.2
+lambda_P: 0.2
+lambda_R: 0.2
+
+mu1: 1.0
+mu2: 0.6
+mu3: 0.4
+
+cvar_alpha: 0.95
+cvar_window: 40
+s_SLO: 1.0
+
+theta_ok: 0.25
+theta_warn: 0.5
+
+w_str: 1.0
+w_ctr: 1.0
+w_risk: 1.0
+
+p_alpha_DP: 0.75
+p_alpha_PR: 0.65
+p_alpha_RD: 0.55
+
+sat_scale_D: 1.0
+sat_scale_P: 1.0
+sat_scale_R: 1.0
+
+base_g_DP: 0.8
+base_g_PR: 0.9
+base_g_RD: 0.7
+
+window_l: 6
+rho_B: 0.05
